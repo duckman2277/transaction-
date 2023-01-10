@@ -1,0 +1,1993 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://bitcoinwallet.com/user_account.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>bitcoinwallet.com</title>
+		
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://bitcoinwallet.com/static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://bitcoinwallet.com/static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://bitcoinwallet.com/static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://bitcoinwallet.com/static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="https://bitcoinwallet.com/static/favicon/safari-pinned-tab.svg" color="#34495e">
+    <link rel="shortcut icon" href="https://bitcoinwallet.com/static/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#34495e">
+    <meta name="msapplication-config" content="/static/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#f7f9fa">
+
+
+        <!-- Vendor styles -->
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/perfect-scrollbar.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/all.min.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/metisMenu.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/animate.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/bootstrap.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/all.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/star-rating.css">
+        <!-- App styles -->
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/style.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/bitcoinwallet.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/datepicker.css">
+        <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/custom_form_element.css">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="text/javascript" async="" src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/analytics.js.download"></script><script async="" src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-47825020-1');
+</script>
+		
+        <!-- Vendor scripts -->
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/jquery.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/jquery-ui.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/perfect-scrollbar.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/bootstrap.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/metisMenu.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/jquery.validate.min.js.download"></script>
+
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/star-rating.min.js.download"></script>
+
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/moment-with-locales.min.js.download"></script>
+        <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/Chart.min.js.download"></script>
+
+        <script type="module">
+            import QrScanner from "/static/vendor/qr-scanner/qr-scanner.min.js";
+
+            QrScanner.WORKER_PATH = '/static/vendor/qr-scanner/qr-scanner-worker.min.js';
+            window.QrScanner = QrScanner;
+        </script>
+
+		
+
+    <script>
+        /*! jQuery UI - v1.11.2 - 2014-10-17
+* http://jqueryui.com
+* Copyright 2014 jQuery Foundation and other contributors; Licensed MIT */
+(function(e){"function"==typeof define&&define.amd?define(["../datepicker"],e):e(jQuery.datepicker)})(function(e){return e.regional["en"]={closeText:"Done",prevText:"Prev",nextText:"Next",currentText:"Today",monthNames:["January","February","March","April","May","June","July","August","September","October","November","December"],monthNamesShort:["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],dayNames:["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],dayNamesShort:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],dayNamesMin:["Su","Mo","Tu","We","Th","Fr","Sa"],weekHeader:"Wk",dateFormat:"dd/mm/yy",firstDay:1,isRTL:!1,showMonthAfterYear:!1,yearSuffix:""},e.setDefaults(e.regional["en"]),e.regional["en"]});    </script>
+        <script>
+                function switch_to_user_account(idem_account_guid) {
+            const session_idem_account_guid = 'd20e3abc71810aee4c6055f8f4a5cbb5';
+            if (session_idem_account_guid !== idem_account_guid) {
+                const payload = "EqKDnv7M4WWNDMKSRUAJb1xYFW8JKNXKkrlFZu08DrbJBqKMOIBvePyatt0pug2cCLaohlLAI4hurcE_cn3E7Q,,";
+                const data = {
+                    idem_account_guid: idem_account_guid
+                };
+                loader_show();
+                send_ajax(payload, data, function (response) {
+                    const data = JSON.parse(response);
+                    location.reload();
+                });
+            }
+        }
+        
+        const load_modal_config = {};
+
+        function load_modal(modal_name, param) {
+            let payload = '';
+            let data = {};
+
+            if (modal_name && typeof (load_modal_config[modal_name]) != 'undefined') {
+                const config = load_modal_config[modal_name];
+                payload = config['payload'];
+                if (typeof (config['param_data_index']) != 'undefined') {
+                    data[config['param_data_index']] = param;
+                }
+
+                const modal_id = 'modal_' + modal_name;
+                $('#' + modal_id).modal('show');
+                const modal_id_ajax = modal_id + '_ajax';
+                $('#' + modal_id + ' .modal_header_record_id').html('').addClass('hidden');
+
+                $('#' + modal_id + ' .record_detail').addClass('hidden');
+                $('#' + modal_id + ' .record_detail_body').html('');
+
+                const modal_title = $('#' + modal_id + ' .modal_title');
+                if (!modal_title.hasClass('static_title')) {
+                    $('#' + modal_id + ' .modal_title').html('').addClass('hidden');
+                }
+
+                modal_secure_load(modal_id_ajax, payload, data);
+            }
+        }
+
+        function modal_secure_load(modal_id_ajax, payload, data) {
+            loader_show();
+            $('#' + modal_id_ajax).html('');
+            if (!data) {
+                data = {};
+            }
+
+            $.ajax({
+                type: "POST",
+                url: 'https://bitcoinwallet.com/ajax.php?payload=' + payload,
+                data: data,
+                headers: {'X-Requested-With': 'XMLHttpRequest'},
+                xhrFields: {
+                    withCredentials: true
+                },
+                success: function (response) {
+                    const hide_loader = modal_secure_replace_content(modal_id_ajax, response, payload);
+                    if (hide_loader) {
+                        loader_hide();
+                    }
+                },
+            });
+        }
+
+        function modal_secure_form_post(modal_id_ajax, payload, form_data, send_function = false) {
+            loader_show();
+            if (!send_function) {
+                send_function = send_ajax;
+            }
+
+            send_function(payload, form_data, function (response) {
+                const hide_loader = modal_secure_replace_content(modal_id_ajax, response, payload);
+                if (hide_loader) {
+                    loader_hide();
+                }
+            });
+        }
+
+        function send_ajax(payload, form_data, callback) {
+            let process_data = true;
+            let content_type = 'application/x-www-form-urlencoded';
+            if (form_data instanceof FormData) {
+                process_data = false;
+                content_type = false;
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: 'https://bitcoinwallet.com/ajax.php?payload=' + payload,
+                data: form_data,
+                headers: {'X-Requested-With': 'XMLHttpRequest'},
+                xhrFields: {
+                    withCredentials: true
+                },
+                contentType: content_type,
+                processData: process_data,
+                success: function (response) {
+                    try_redirect_from_ajax(response, function () {
+                        if (typeof (callback) === 'function') {
+                            callback(response);
+                        }
+                    });
+                },
+            });
+        }
+
+        function send_ajax_image(payload, form_data, callback) {
+            const domain_name = form_data.get('image_server_domain_name');
+            if (!domain_name) {
+                return false;
+            }
+
+            $.ajax({
+                type: 'POST',
+                url: domain_name + '/upload.php?payload=' + payload,
+                data: form_data,
+                headers: {'X-Requested-With': 'XMLHttpRequest'},
+                xhrFields: {
+                    withCredentials: true
+                },
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    const result_form_data = new FormData();
+                    result_form_data.append('image_server_response', response);
+                    send_ajax(payload, result_form_data, callback);
+                },
+            });
+        }
+
+        function modal_secure_replace_content(modal_id_ajax, response, payload) {
+            try_redirect_from_ajax(response, function () {
+                const modal_ajax = $('#' + modal_id_ajax);
+                const modal = modal_ajax.closest('.modal');
+                modal.find('.record_detail').addClass('hidden');
+                modal.find('.record_detail_body').html('');
+                modal_ajax.html(response);
+                stylize_all_select_placeholder();
+            });
+
+            return true;
+        }
+
+        function try_redirect_from_ajax(response, callback) {
+            try {
+                let data = JSON.parse(response);
+                if (data.redirect) {
+                    loader_show('redirecting...');
+                    window.location = data.redirect;
+                    return false;
+                } else {
+                    throw 'redirect not found';
+                }
+            } catch (e) {
+                callback();
+            }
+        }
+
+        function loader_show(message) {
+            loader_hide();
+            $('body > .loader').removeClass('hidden');
+            if (typeof (message) !== 'undefined') {
+                $('body > .loader_circle').append('<div class="loader_message">' + message + '</div>')
+            }
+        }
+
+        function loader_hide() {
+            $('body > .loader').addClass('hidden');
+            $('body > .loader_circle .loader_message').remove()
+        }
+
+        function datatable_update_row(data_new) {
+            const row_id = data_new['datatable_row_id'];
+            if (!row_id) {
+                return false;
+            }
+
+            const row_selector = "#" + row_id;
+            const row_selector_escaped = row_selector.replace(",", "\\\,"); // jquery needs escaped selector. replace comma with escaped comma
+            const row_element = $(row_selector_escaped);
+            if (row_element.length > 0) {
+                const datatable_element = row_element.closest('table');
+                if (datatable_element.length) {
+                    const datatable = datatable_element.DataTable({"retrieve": true});
+                    datatable.row(row_element).data(data_new).draw();
+                }
+            } else if (data_new['button_new_data_id']) {
+                const button_new_element = $('button[data-id="' + data_new['button_new_data_id'] + '"]');
+                if (button_new_element.length) {
+                    const datatable_element = button_new_element.closest('.datatable_data').find('.dataTable');
+                    if (datatable_element.length) {
+                        const datatable = datatable_element.DataTable({"retrieve": true});
+                        datatable.row.add(data_new).draw();
+                    }
+                }
+            } else if (data_new['datatable_panel_classname']) {
+                const datatable_element = $('.datatable_panel.' + data_new['datatable_panel_classname'] + ' > .datatable_data .dataTable');
+                if (datatable_element.length) {
+                    const datatable = datatable_element.DataTable({"retrieve": true});
+                    delete data_new['datatable_panel_classname'];
+                    datatable.row.add(data_new).draw();
+                }
+            }
+        }
+
+        function format_bitcoin(amount) {
+            return get_fixed_value({value: amount, float_part_length: 8, format_zero: true});
+        }
+
+        function format_fiat(amount, float_part_length = 2) {
+            return get_fixed_value({value: amount, float_part_length: float_part_length, format_zero: true});
+        }
+
+        function format_number(value) {
+            return get_fixed_value({value: value, trailing_zero: false});
+        }
+
+        function get_fixed_value({value = 0, float_part_length = 2, format = true, get_float = false, format_zero = false, trailing_zero = true}) {
+            if (!value && value !== 0) {
+                value = 0;
+            }
+
+            if (value === 0 && format_zero === false) {
+                if (get_float) {
+                    return value;
+                }
+
+                return value.toString();
+            }
+
+            value = parseFloat(parseFloat(value).toFixed(float_part_length));
+
+            if (get_float) {
+                return value;
+            } else {
+                let options = {
+                    maximumFractionDigits: float_part_length,
+                    useGrouping: format
+                };
+                if (trailing_zero) {
+                    options['minimumFractionDigits'] = float_part_length;
+                }
+
+                return value.toLocaleString('en-EN', options);
+            }
+        }
+
+        function get_float_part_length(value, length) {
+            const integer_part_length = parseInt(value).toString().length;
+            let float_part_length = length - integer_part_length;
+            if (0 > float_part_length) {
+                float_part_length = 0;
+            }
+
+            return float_part_length;
+        }
+
+        function trim_float_part_length(number, float_part_length = 8) {
+            return number.toString().substring(0, number.toString().indexOf(".") + float_part_length + 1);
+        }
+
+        function format_tax_id_usa_business(value) {
+            const result_string = [];
+            const sanitized_value = value.replace(/[^0-9]/g, '');
+            if (sanitized_value.substr(0, 2)) {
+                result_string.push(sanitized_value.substr(0, 2));
+            }
+
+            if (sanitized_value.substr(2, 7)) {
+                result_string.push(sanitized_value.substr(2, 7));
+            }
+
+            let new_value = sanitized_value;
+            if (result_string.length > 0) {
+                new_value = result_string.join("-");
+            }
+
+            return new_value;
+        }
+
+        function format_tax_id_usa_personal(value) {
+            const result_string = [];
+            const sanitized_value = value.replace(/[^0-9]/g, '');
+            if (sanitized_value.substr(0, 3)) {
+                result_string.push(sanitized_value.substr(0, 3));
+            }
+
+            if (sanitized_value.substr(3, 2)) {
+                result_string.push(sanitized_value.substr(3, 2));
+            }
+
+            if (sanitized_value.substr(5, 4)) {
+                result_string.push(sanitized_value.substr(5, 4));
+            }
+
+            let new_value = sanitized_value;
+            if (result_string.length > 0) {
+                new_value = result_string.join("-");
+            }
+
+            return new_value;
+        }
+
+        function rem_to_pixels(rem) {
+            return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
+        }
+
+        function urldecode(value) {
+            return decodeURIComponent(value.replace(/\+/g, ' '));
+        }
+
+        function submit_modal_form(modal_submit_button) {
+            const modal_form = modal_submit_button.closest('.modal_form');
+            if (modal_form.length > 0) {
+                const payload = modal_form.data('payload');
+                let id_to_replace_content = modal_form.data('id_to_replace_content');
+                if (!id_to_replace_content) {
+                    id_to_replace_content = modal_form.closest('.modal-body').attr('id');
+                }
+
+                const form_data = get_form_data(modal_form);
+
+                let send_function = send_ajax;
+                if (modal_form.data('form_type') === 'image') {
+                    send_function = send_ajax_image;
+                }
+
+                modal_secure_form_post(id_to_replace_content, payload, form_data, send_function);
+            }
+        }
+
+        function get_form_data(form) {
+            const data_serialized = form.serializeArray();
+
+            const result_file_name = [];
+            const form_data = new FormData();
+            $.each(data_serialized, function (index, field) {
+                if (field.name === 'file_name') {
+                    result_file_name.push(field.value);
+                } else {
+                    form_data.append(field.name, field.value);
+                }
+            });
+            form_data.append('result_file_name', JSON.stringify(result_file_name));
+
+            const result_file_input = form.find('input[type="file"]');
+            if (result_file_input.length > 0) {
+                $.each(result_file_input, function (index, file_input) {
+                    const file = $(file_input)[0].files[0];
+                    if (file) {
+                        if ($(file_input).data('encrypt_file')) {
+                            const result_form_encrypt_file = form_encrypt_file(file_input);
+
+                            form_data.append(result_form_encrypt_file.encryption_data_input_name, $(result_form_encrypt_file.encryption_data_input_selector).val());
+                            form_data.append(result_form_encrypt_file.base64_input_name, $(result_form_encrypt_file.base64_input_selector).val());
+                        } else {
+                            form_data.append($(file_input).attr('name'), file, file.name);
+                        }
+                    }
+                });
+            }
+
+            return form_data;
+        }
+
+        function form_encrypt_file(file_input) {
+            const file_input_name = $(file_input).attr('name');
+            const base64_input_name = file_input_name + '_image_base64';
+            const base64_input_selector = 'input[name="' + base64_input_name + '"]';
+            const file_base64 = $(base64_input_selector).val();
+            $(base64_input_selector).val('');
+
+            const encrypted_file_base64 = encrypt_file_base64(file_base64);
+
+            const base64_encrypted_hex_input_name = base64_input_name + '_encrypted_hex';
+            const base64_encrypted_hex_input_selector = 'input[name="' + base64_encrypted_hex_input_name + '"]';
+            if ($(base64_encrypted_hex_input_selector).length <= 0) {
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: base64_encrypted_hex_input_name,
+                }).insertAfter(file_input);
+            }
+            $(base64_encrypted_hex_input_selector).val(encrypted_file_base64.encrypted_hex);
+
+            const encryption_data_input_name = file_input_name + '_encryption_data';
+            const encryption_data_input_selector = 'input[name="' + encryption_data_input_name + '"]';
+            if ($(encryption_data_input_selector).length <= 0) {
+                $('<input>').attr({
+                    type: 'hidden',
+                    name: encryption_data_input_name,
+                }).insertAfter(file_input);
+            }
+            $(encryption_data_input_selector).val(JSON.stringify(encrypted_file_base64.encryption_data));
+            $(file_input).val('');
+
+            return {
+                encryption_data_input_name: encryption_data_input_name,
+                encryption_data_input_selector: encryption_data_input_selector,
+                base64_input_name: base64_input_name,
+                base64_input_selector: base64_input_selector
+            }
+        }
+
+        function random_int_from_interval(min, max) {
+            return Math.floor(Math.random() * (max - min + 1) + min);
+        }
+
+        function stylize_all_select_placeholder() {
+            $.each($('select'), function () {
+                stylize_select_placeholder($(this));
+            });
+        }
+
+        function stylize_select_placeholder(select) {
+            if (select.children("option:selected").hasClass('placeholder')) {
+                select.addClass('placeholder');
+            } else {
+                select.removeClass('placeholder');
+            }
+        }
+
+        function update_left_nav_appearance() {
+            const window_height = $(window).height();
+            const window_top = $(window).scrollTop();
+            const footer_top = $('footer').offset().top;
+            const header_height = $('#header_navigation').outerHeight();
+            const footer_height = $("footer").outerHeight();
+            const navigation_content_height = $('.navigation_content').outerHeight();
+
+            let wrapper_min_height = window_height - header_height;
+            if (wrapper_min_height < navigation_content_height) {
+                wrapper_min_height = navigation_content_height;
+            }
+
+            if ($('#wrapper').length > 0) {
+                wrapper_min_height += parseFloat($('#wrapper').css('padding-top').replace('px', ''));
+                $('#wrapper').css('min-height', wrapper_min_height + 'px');
+            }
+
+            let menu_bottom = 'auto';
+            if (navigation_content_height < (window_height - header_height - footer_height)) {
+                $('#menu').removeClass('footer_stop');
+            } else {
+                if ((window_top + navigation_content_height + header_height) > footer_top) {
+                    $('#menu').addClass('footer_stop');
+                    menu_bottom = footer_height + 'px';
+                } else {
+                    $('#menu').removeClass('footer_stop');
+                }
+            }
+
+            $('#menu').css('padding-top', header_height + 'px');
+            $('#wrapper').css('padding-top', header_height + 'px');
+            $('.content_public').css('padding-top', header_height + 'px');
+
+            $('#menu').css('bottom', menu_bottom);
+        }
+
+        function update_dynamic_fiat_amount(current_price) {
+            if (!current_price && $('#current_price').length > 0) {
+                current_price = $('#current_price').data('current_price_value');
+            }
+
+            if (!current_price) {
+                return false;
+            }
+
+            $('.btc_with_dynamic_fiat').each(function (index, item) {
+                let amount_fiat = parseFloat($(this).find('.amount_btc').html().replaceAll(',', '')) * parseFloat(current_price);
+                if (isNaN(amount_fiat)) {
+                    amount_fiat = '';
+                }
+                $(this).find('.amount_fiat').html(format_fiat(amount_fiat));
+            });
+        }
+
+        function set_sidebar_default_state() {
+            if ($(window).width() >= 992) {
+                $('body').removeClass('hide-sidebar');
+                $('body').removeClass('sidebar_lock_body_scroll');
+            } else {
+                $('body').addClass('hide-sidebar');
+                $('body').addClass('sidebar_lock_body_scroll');
+            }
+        }
+
+        function append_json_download_link(json, append_to_selector, file_name, button_phrase) {
+            if (typeof (json) !== 'string') {
+                json = JSON.stringify(json);
+            }
+
+            const url = json_to_url(json, 'octet/stream');
+            const link = document.createElement('a');
+            link.className = 'btn btn-primary btn-outline labeled';
+            link.href = url;
+            link.target = "_blank";
+            link.download = file_name + '.json';
+            link.innerHTML = '<i class="fal fa-arrow-to-bottom"></i>' + button_phrase;
+
+            $(append_to_selector).append(link);
+            $(append_to_selector).append(' ');
+        }
+
+        function json_to_url(json, mimeType) {
+            return URL.createObjectURL(new Blob([json], {type: mimeType}))
+        }
+
+        function encrypt_file_base64(base64) {
+            // generate a random key and IV
+            const aes_config = {
+                key: forge.random.getBytesSync(16),
+                iv: forge.random.getBytesSync(8)
+            };
+
+            // encrypt
+            const cipher = forge.aes.createEncryptionCipher(aes_config.key);
+            cipher.start(aes_config.iv);
+            cipher.update(forge.util.createBuffer(base64));
+            cipher.finish();
+            const encrypted = cipher.output;
+            const encrypted_hex = encrypted.toHex();
+            const pki = forge.pki;
+            // convert a PEM-formatted public key to a Forge public key
+            const public_key = pki.publicKeyFromPem(`-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0hSCBgxkeRelUhaC8Qui
+c82NahsZrWK7eCCO5+xOJHo5dblz+90ZAlz1NJx6H227rnm/yjba0BrTTLlHiuPU
+NAoS+vT0m5HwSiOKe0BZNUUWJlYotkj3qoNTioD2OSfEZxA4L9UugGJnoENHzqzR
+19SNSjvapkDWVtVoZSFUZQHvS850L6Gx9KXfVVPIhsOHrEQAbW+2rkYj3cVnqQlk
+yxI1sqYrfb5DrireZYRVcZfuhs+cARmCczh/lnB4+XvFsUnvlP+AtAU9c9ft8Gzt
+bH0E3mUigJWJtuv94yqULvZdW/KKxJM3+3PDL2tkH8sgIZSTj1U5cVjcFHZNv1zx
+zQIDAQAB
+-----END PUBLIC KEY-----`);
+
+            const aes_config_hex = {
+                key: forge.util.bytesToHex(aes_config.key),
+                iv: forge.util.bytesToHex(aes_config.iv)
+            };
+            const encrypted_aes_config = public_key.encrypt(JSON.stringify(aes_config_hex));
+
+            return {
+                encrypted_hex: encrypted_hex,
+                encryption_data: {
+                    encrypted_aes_config: forge.util.bytesToHex(encrypted_aes_config),
+                    public_key_guid: '04624e6be9d37d8bad2f9ccf5c0931d5'
+                }
+            }
+        }
+
+        function validate_file_size(file_input) {
+            let is_valid = true;
+            const max_file_size = $(file_input).data('max_file_size');
+            const file = file_input.files[0];
+            if (max_file_size < file.size) {
+                is_valid = false;
+
+                if ($(file_input).siblings('.file_size_error').length <= 0) {
+                    $('<div class="file_size_error text-danger"></div>').insertAfter($(file_input));
+                }
+                const error = $(file_input).data('max_file_size_error_message');
+                $(file_input).siblings('.file_size_error').html(error);
+                $(file_input).val('');
+            } else {
+                $(file_input).siblings('.file_size_error').remove();
+            }
+
+            return is_valid;
+        }
+
+        function validate_file_extension(file_input) {
+            let is_valid = true;
+            const allowed_extension = $(file_input).data('allowed_extension');
+            const file = file_input.files[0];
+            const type = file.type.split('/')[1];
+            if (!allowed_extension.includes(type)) {
+                is_valid = false;
+
+                if ($(file_input).siblings('.file_extension_error').length <= 0) {
+                    $('<div class="file_extension_error text-danger"></div>').insertAfter($(file_input));
+                }
+                const error = $(file_input).data('allowed_extension_error_message');
+                $(file_input).siblings('.file_extension_error').html(error);
+                $(file_input).val('');
+            } else {
+                $(file_input).siblings('.file_extension_error').remove();
+            }
+
+            return is_valid;
+        }
+
+        function listen_user_name_input_on_change(input) {
+            if (input) {
+                input.oninput = function () {
+                    if (this.value.match(/[^a-zA-Z0-9]/g)) {
+                        this.value = this.value.replace(/[^a-zA-Z0-9]/g, '');
+                    }
+                    input.value = input.value.substring(0, 100);
+
+                    if (document.getElementById('display_user_name')) {
+                        document.getElementById('display_user_name').innerHTML = 'https://' + input.value + '.bitcoinwallet.com';
+                    }
+                }
+            }
+        }
+
+        $(function () {
+            const body = $('body');
+            // Initialize tooltips
+            $('.tooltip-demo').tooltip({
+                selector: '[data-toggle=tooltip]'
+            });
+
+            // Initialize popover
+            $('[data-toggle=popover]').popover();
+
+            // Initialize metisMenu plugin to sidebar menu
+            if (typeof ($('#side-menu').metisMenu) !== 'undefined') {
+                $('#side-menu').metisMenu();
+            }
+
+            // Move modal to body
+            // Fix Bootstrap backdrop issue with animation.css
+            $('.modal').appendTo('body');
+
+            // Check if sidebar scroll is enabled
+            if (body.hasClass('sidebar-scroll')) {
+                new PerfectScrollbar('#menu', {
+                    wheelSpeed: 0.5,
+                    wheelPropagation: true,
+                    suppressScrollX: true
+                });
+            }
+
+            // handle minimize sidebar menu
+            body.on('click', '.toggle_menu', function (event) {
+                event.preventDefault();
+                $('body').toggleClass('hide-sidebar');
+            });
+
+            body.on('click', '.sidebar_lock_body_backdrop', function (event) {
+                event.preventDefault();
+                $('body').addClass('hide-sidebar');
+            });
+
+            $(window).keydown(function (event) {
+                const should_prevent = $(':focus').closest('form.prevent_submit_on_enter').length > 0;
+                const is_modal_form = $(':focus').closest('form.modal_form').length > 0;
+                if (event.keyCode == 13 && $(event.target)[0] != $("textarea")[0] && (is_modal_form || should_prevent)) {
+                    event.preventDefault();
+                    return false;
+                }
+            });
+
+            body.on('click', '.modal_submit', function () {
+                if ($(this).data('confirmation')) {
+                    if (confirm($(this).data('confirmation'))) {
+                        submit_modal_form($(this));
+                    }
+                } else {
+                    submit_modal_form($(this));
+                }
+            });
+
+            body.on('click', '.close_modal', function (event) {
+                event.preventDefault();
+                $(this).closest('.modal').modal('hide');
+            });
+
+            body.on('change', 'select', function () {
+                stylize_select_placeholder($(this));
+            });
+
+            set_sidebar_default_state();
+            stylize_all_select_placeholder();
+
+            // custom definitian for persian. persian version does not format correctly in streams
+            moment.updateLocale('fa', {
+                relativeTime: {
+                    ss: '%d  ثانیه قبل'
+                },
+            });
+            moment.locale('en');
+
+            $(window).on('scroll resize', function () {
+                update_left_nav_appearance();
+            });
+
+            $(window).on('resize', function () {
+                set_sidebar_default_state();
+            });
+
+            if (typeof (ResizeObserver) === 'function') {
+                let resizeObserver = new ResizeObserver(() => {
+                    update_left_nav_appearance();
+                });
+                resizeObserver.observe($('body')[0]);
+            }
+
+            const menu_animation_time = 300;
+            $(window).on('click', function () {
+                setTimeout(update_left_nav_appearance, menu_animation_time);
+            });
+            setTimeout(update_left_nav_appearance, menu_animation_time);
+
+            body.on('click', '.showhide_no_animation', function () {
+                const panel_body = $(this).closest('.hpanel').find('.panel-body');
+                if (panel_body.css('display') === 'block') {
+                    panel_body.css('display', 'none');
+                } else {
+                    panel_body.css('display', 'block');
+                }
+
+                const icon = $(this).find('i:first');
+                icon.toggleClass('fa-chevron-up').toggleClass('fa-chevron-down');
+            });
+
+            // Function for collapse hpanel
+            body.on('click', '.showhide', function (event) {
+                event.preventDefault();
+                var hpanel = $(this).closest('div.hpanel');
+                var icon = $(this).find('i:first');
+                var body = hpanel.find('div.panel-body');
+                var footer = hpanel.find('div.panel-footer');
+                body.slideToggle(300);
+                footer.slideToggle(200);
+
+                // Toggle icon from up to down
+                icon.toggleClass('fa-chevron-up').toggleClass('fa-chevron-down');
+                hpanel.toggleClass('panel-collapse');
+                setTimeout(function () {
+                    hpanel.resize();
+                    hpanel.find('[id^=map-]').resize();
+                }, 50);
+            });
+
+            body.on('change', 'input[type="file"][data-encrypt_file="1"]', function (event) {
+                const file_input = $(this);
+                const file_input_name = $(this).attr('name');
+                const base64_input_name = file_input_name + '_image_base64';
+                const base64_input_selector = 'input[name="' + base64_input_name + '"]';
+                const file = this.files[0];
+
+                if (validate_file_extension(this) && validate_file_size(this)) {
+                    const reader = new FileReader();
+                    reader.addEventListener("load", function () {
+                        if ($(base64_input_selector).length <= 0) {
+                            $('<input>').attr({
+                                type: 'hidden',
+                                name: base64_input_name,
+                            }).insertAfter(file_input);
+                        }
+
+                        $(base64_input_selector).val(reader.result);
+                    }, false);
+
+                    if (file) {
+                        reader.readAsDataURL(file);
+                    }
+                }
+            });
+
+            body.on('submit', 'form', function (event) {
+                if ($(this).find('input[type="file"][data-encrypt_file="1"]').length > 0) {
+                    const form = this;
+                    loader_show('encryption in progress'); // encrypting...
+                    const result_file_input = $(form).find('input[type="file"][data-encrypt_file="1"]');
+                    if (result_file_input.length > 0) {
+                        event.preventDefault();
+                        setTimeout(function () {
+                            $.each(result_file_input, function (index, file_input) {
+                                const file = $(file_input)[0].files[0];
+                                if (file) {
+                                    if ($(file_input).data('encrypt_file')) {
+                                        form_encrypt_file(file_input);
+                                    }
+                                }
+                            });
+                            form.submit();
+                        }, 100);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
+
+		
+
+    </head>
+    <body class="fixed-navbar sidebar-scroll" style="">
+    <div class="loader loader_circle hidden">
+        <div class="circle">
+        </div>
+    </div>
+    <div class="loader loader_backdrop hidden"></div>
+
+    <div id="header_navigation" class="header_container">
+        <div class="navbar-header d-flex align-items-center w-100">
+            <div class="header_logo light-version">
+                <a href="https://bitcoinwallet.com/">
+                    <object class="header_logo_object" type="image/svg+xml" data="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/logo_bold.svg">
+                        <img src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/logo_bold.png">
+                    </object>
+                </a>
+            </div>
+			                <div class="header_link toggle_menu"><i class="fal fa-bars"></i></div>
+				
+            <a href="https://bitcoinwallet.com/" class="small_logo">
+                <object class="header_logo_object" type="image/svg+xml" data="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/logo_bold.svg">
+					your browser does not support svg                </object>
+            </a>
+            <div class="header_link toggle_navbar m-l-auto collapsed" data-target="#navbar" data-toggle="collapse" aria-expanded="false">
+                <i class="fal fa-chevron-down"></i>
+                <i class="fal fa-chevron-up"></i>
+            </div>
+        </div>
+		
+<div id="navbar" class="navbar_collapse collapse" style="height: 0;">
+    <div class="nav navbar-nav">
+        <div class="header_search_container">
+            <form class="header_search" role="search" method="get" action="https://bitcoinwallet.com/search.php">
+                <input type="text" class="form-control header_search_input" name="search" placeholder="search">
+            </form>
+        </div>
+
+		            <div>
+                <a class="labeled" href="https://bitcoinwallet.com/dashboard.php">
+                    <i class="fal fa-home"></i><span class="header_link_label">home</span>
+                </a>
+            </div>
+            <div>
+                <a class="labeled" href="https://bitcoinwallet.com/logout.php">
+                    <i class="fal fa-sign-out-alt"></i><span class="header_link_label">logout</span>
+                </a>
+            </div>
+			    </div>
+</div>
+
+
+		
+
+		
+    </div>
+
+    <aside id="menu" class="ps" style="padding-top: 71px; bottom: auto;">
+        <div id="navigation">
+            <div class="navigation_content">
+                <div class="profile-picture">
+					
+
+	        <div class="user_profile_image_link_container">
+        <a href="https://duckman2277.bitcoinwallet.com/" target="_blank" style="background-color: #660F57;" class="user_profile_image_link img-sm img-circle user_profile_image_placeholder">
+		            <span>
+                        <span>D</span>
+                    </span>
+			        </a>
+
+		        </div>
+			
+
+                    <div class="stats-label text-color m-t-xs font-bold">
+						
+
+    <p class="m-0">
+		        <a href="https://duckman2277.bitcoinwallet.com/" class=" profile_name w-auto" target="_blank">
+            <span class="font_weight_500"><span title="" data-toggle="tooltip" data-placement="auto" data-html="true" data-original-title="duckman2277">duckman2277</span></span>        </a>
+		
+		            <a href="https://bitcoinwallet.com/user_profile_edit.php" class="icon_clickable"><span class="fal fa-pencil-alt"></span></a>
+			
+
+		    </p><div>
+        <span class="font-normal">@duckman2277</span>
+    </div>
+		    <p></p>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        })
+    </script>
+	
+                    </div>
+                </div>
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navigate_left_user_account_list">
+    <div class="list-group user_account_list m-b-0">
+		
+    <div class="list-group-item user_account_list_item account active" data-idem_account_guid="d20e3abc71810aee4c6055f8f4a5cbb5">
+        <a class="text-left">
+            <span class="account_name"># bitcoinwallet  00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</span>
+            <div>
+                <span class="labeled text-success">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+		            <div class="list-group-item user_account_list_label">
+				wallets            </div>
+			
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="d20e3abc71810aee4c6055f8f4a5cbb5">
+        <a class="text-left">
+            <span class="account_name"># bitcoinwallet  00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="1dd16523d683cda3725e72e0c6cb35e6">
+        <a class="text-left">
+            <span class="account_name"># bitcoinwallet 00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="18d08b1766fbe710dbeb5b3b2980c4be">
+        <a class="text-left">
+            <span class="account_name">00000000000000000000000000000000000000001fa4663bbbe19f82de910280</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="ad57729c6cc7f6b2a2f3591a87e8126d">
+        <a class="text-left">
+            <span class="account_name">00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="ca04ad787e9f2f0890829f300ac5a5b2">
+        <a class="text-left">
+            <span class="account_name">3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="91c1c56301d11a309d57c82821bf5eb7">
+        <a class="text-left">
+            <span class="account_name">3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="7124853b43252f9a259c085b2d5407c0">
+        <a class="text-left">
+            <span class="account_name">bitcoincash</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="7a36e71aa049ef85b61a0cc865951076">
+        <a class="text-left">
+            <span class="account_name">bitcoinwallet</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="24a89a6d82fe421bb97206e79c93bac3">
+        <a class="text-left">
+            <span class="account_name">bitcoinwallet</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="f2090b95e30ac77f6064bc423079cfad">
+        <a class="text-left">
+            <span class="account_name">bitcoinwallet</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="507624281373b0cfb451a67e6c7769d6">
+        <a class="text-left">
+            <span class="account_name">jasongarciawallet</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="e53947f585ffe09582d153930720d2b5">
+        <a class="text-left">
+            <span class="account_name">master</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="86a556f7c38d0b96fbc21b6c352f8d49">
+        <a class="text-left">
+            <span class="account_name">master</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="ecb8b7c6ab3c0efa96ef282aee262f3e">
+        <a class="text-left">
+            <span class="account_name">masterbitcoin</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="e2e7ddcf8db5618dc8d6e420b0f44775">
+        <a class="text-left">
+            <span class="account_name">masterbitcoin</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="ae21f4ae56f54ae405d9b00f2c0e12e1">
+        <a class="text-left">
+            <span class="account_name">primary</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+    <div class="list-group-item user_account_list_item account " data-idem_account_guid="946ec1c1d22f15c1ef0792043510cc70">
+        <a class="text-left">
+            <span class="account_name">Team Builders</span>
+            <div>
+                <span class="labeled ">
+                    <i class="fab fa-btc"></i><span class="balance" data-balance_value="0.00000000">0.00000000</span>
+                </span>
+            </div>
+            <div>
+				            </div>
+        </a>
+    </div>
+	
+
+        <div class="list-group-item text-center no_border m-0">
+            <button class="btn btn-primary btn-outline btn-sm" type="button" data-id="ZHc88RQzLk3UvTENeGhK_YqxyOhNUYe5PPxAyHMiMU0," onclick="load_modal(&#39;user_account_edit&#39;, this.dataset.id)">
+                <i class="fal fa-plus-circle"></i>new wallet            </button>
+        </div>
+    </div>
+
+	
+    <script>
+        $(function () {
+            $('.navigate_left_user_account_list .account').on('click', function () {
+                const idem_account_guid = $(this).data('idem_account_guid');
+                switch_to_user_account(idem_account_guid);
+            });
+
+            $('.navigate_left_user_account_list > .dropdown-toggle').dropdown();
+        });
+    </script>
+</div>
+
+
+
+
+
+
+
+
+        <script>
+            $(function () {
+                if (typeof (load_modal_config) != 'undefined') {
+                    load_modal_config['user_account_edit'] = {
+                        'payload': 'EqKDnv7M4WWNDMKSRUAJbzmHkhfM8tWNwo5MqTJqvuqVoAhmfWLZa4eRlt6PZXhQqmOWQU1e4hg3xcK7LacQpw,,',
+                        'param_data_index': 'datatable_row_id'
+                    };
+                }
+            });
+        </script>
+
+        
+		
+
+
+                <ul class="nav" id="side-menu">
+                    <li>
+                        <a href="https://bitcoinwallet.com/dashboard.php">home</a>
+                    </li>
+                    <li>
+                        <a onclick="load_modal(&#39;send_summary&#39;)">send</a>
+                    </li>
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">wallets</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://bitcoinwallet.com/user_account.php">my wallets</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_address.php">my bitcoin address</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">transactions</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://bitcoinwallet.com/user_transaction_all.php">all</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_transaction_deposit.php">deposits</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_transaction_withdrawal.php">payments</a></li>
+							                            <li><a href="https://bitcoinwallet.com/user_category_ledger.php">categories</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">integration </span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://bitcoinwallet.com/user_brand.php">millix.com</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">people</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://bitcoinwallet.com/user_contact_all.php">all</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_contact_payer.php">people I paid</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_contact_payee.php">people who paid me</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_category_contact.php">categories</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">account</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://duckman2277.bitcoinwallet.com/">profile</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_profile_edit.php">edit profile</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_preference.php">preferences</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_verification.php">account verification</a></li>
+                        </ul>
+                    </li>
+					                        <li>
+                            <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">earn</span><i class="fal fa-chevron-left"></i></a>
+                            <ul class="nav nav-second-level collapse" aria-expanded="false">
+                                <li><a href="https://bitcoinwallet.com/user_affiliate.php">refer a friend</a></li>
+                            </ul>
+                        </li>
+						
+                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">security</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+                            <li><a href="https://bitcoinwallet.com/user_security.php">email and password</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_2fa.php">2fa settings</a></li>
+							                            <li><a href="https://bitcoinwallet.com/logout.php">log out</a></li>
+                            <li><a href="https://bitcoinwallet.com/device_forget.php">log out and forget device</a></li>
+                        </ul>
+                    </li>
+															                    <li>
+                        <a href="https://bitcoinwallet.com/user_account.php#"><span class="nav-label">help</span><i class="fal fa-chevron-left"></i></a>
+                        <ul class="nav nav-second-level collapse" aria-expanded="false">
+							                            <li><a href="https://bitcoinwallet.com/faq.php">frequent questions</a></li>
+                            <li><a href="https://bitcoinwallet.com/user_support.php">I need help</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; height: 749px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></aside>
+
+    <script>
+        $(function () {
+            const pathname = window.location.pathname;
+            $('#side-menu').find('a').each(function () {
+                if ($(this).attr('href') === pathname) {
+                    $(this).closest('li').addClass('active');
+                    $(this).closest('.nav-second-level').addClass('in').attr('aria-expanded', 'true');
+                    $(this).closest('.nav-second-level').closest('li').addClass('active');
+                    $(this).closest('.nav-second-level').closest('li').children('a').attr('aria-expanded', 'true');
+                }
+            });
+
+        });
+    </script>
+
+
+
+        <script>
+            $(function () {
+                if (typeof (load_modal_config) != 'undefined') {
+                    load_modal_config['send_summary'] = {
+                        'payload': 'EqKDnv7M4WWNDMKSRUAJbzmHkhfM8tWNwo5MqTJqvurigVSPyk2w1OTY3LCk13a03kg5nYVFyE-0y5XWhRDiQw,,',
+                        'param_data_index': ''
+                    };
+                }
+            });
+        </script>
+
+        
+		
+
+
+<div id="wrapper" style="min-height: 1842px; padding-top: 71px;">
+    <div class="sidebar_lock_body_backdrop"></div>
+	    <div class="content">
+        <div class="row">
+			
+        <div class="col-xs-12">
+            <div class="hpanel">
+                <div class="panel-body">
+                    <div class="text-center m-b-md">
+                        <h1 class="page_title">wallets</h1>
+						                            <h4 class="page_subtitle">wallets organize your bitcoin addresses and transactions</h4>
+							                    </div>
+                </div>
+            </div>
+        </div>
+		
+        </div>
+
+		
+
+    <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/datatables.min.css">
+    <link rel="stylesheet" href="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/datatable.css">
+	    <div class="row">
+        <div class="col-xs-12">
+            <div class="hpanel">
+				
+                <div class="panel-body datatable_panel " style="">
+					
+					                        <div class="datatable_filter datatable_filter_7413db0ec9d42a8df90a3fd4ba825218 row section">
+                            <div class="col-xs-12">
+                                <div class="section_subtitle">
+                                    <span><i class="fal fa-filter"></i>filters</span>
+                                </div>
+                                <form action="https://bitcoinwallet.com/user_account.php" method="post" autocomplete="off" class="row">
+									                                        <div class="form-group datatable_filter_item col-xs-12">
+																																												                                                <div class="datatable_column_visible_list_item custom_form_element">
+                                                    <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_filter_include_inactive" name="include_inactive" class="custom_checkbox primary">
+                                                    <label for="7413db0ec9d42a8df90a3fd4ba825218_filter_include_inactive">
+                                                        <span>show all</span>
+                                                    </label>
+                                                </div>
+												                                        </div>
+										                                    <div class="col-xs-12 text-center">
+                                        <button class="btn btn-primary btn-outline" type="button" onclick="submit()">
+                                            <i class="fal fa-sync"></i>apply filter                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+						
+					
+                    <div class="datatable_column_visible datatable_column_visible_7413db0ec9d42a8df90a3fd4ba825218 row section ">
+                        <div class="col-xs-12">
+                            <div class="section_subtitle">
+                                <span><i class="fal fa-columns"></i>columns</span>
+                            </div>
+                            <div class="datatable_column_visible_list">
+								                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_idem_account_guid_visible" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_idem_account_guid_visible">
+											<i class="fal fa-hashtag"></i>                                            <span>id</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_name_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_name_visible">
+											<i class="fal fa-tag"></i>                                            <span>name</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_balance_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_balance_visible">
+											<i class="fab fa-btc"></i>                                            <span>balance</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_status_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_status_visible">
+											<i class="fal fa-power-off"></i>                                            <span>status</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_deposit_default_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_deposit_default_visible">
+											<i class="fal fa-clipboard-check"></i>                                            <span>deposit default</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_address_hash_default_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_address_hash_default_visible">
+											<i class="fal fa-key"></i>                                            <span>address</span>
+                                        </label>
+                                    </div>
+									                                    <div class="datatable_column_visible_list_item custom_form_element">
+                                        <input type="checkbox" id="7413db0ec9d42a8df90a3fd4ba825218_column_action_visible" checked="" class="custom_checkbox primary">
+                                        <label for="7413db0ec9d42a8df90a3fd4ba825218_column_action_visible">
+											<i class="fal fa-pencil-alt"></i>                                            <span>action</span>
+                                        </label>
+                                    </div>
+									                            </div>
+                        </div>
+                    </div>
+
+                    <div class="datatable_data row section m-b-0">
+                        <div class="col-xs-12 ">
+                            <div class="section_subtitle d-flex align-items-flex-end ">
+                                        <span><i class="fal fa-table"></i>data</span>
+										                                            <div class="m-l-auto">
+                                                <button class="btn btn-primary btn-outline btn-sm" type="button" data-id="EqKDnv7M4WWNDMKSRUAJb0sLZWnMebSJFO2sx5r2gBM," onclick="load_modal(&#39;user_account_edit&#39;, this.dataset.id)">
+													<i class="fal fa-plus-circle"></i>new wallet                                                </button>
+                                            </div>
+											                                    </div><div id="datatable_7413db0ec9d42a8df90a3fd4ba825218_wrapper" class="dataTables_wrapper form-inline dt-bootstrap no-footer"><div class="row"><div class="col-lg-3 col-xs-12 text-center text-xl-left refresh_btn_container"><div class="dt-buttons btn-group"><button class="btn btn-primary btn-outline btn-sm" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span><i class="fal fa-sync"></i>refresh</span></button> </div></div><div class="col-lg-6 col-xs-12 text-center"><div class="dt-buttons btn-group">          <button class="btn btn-primary btn-outline btn-sm buttons-copy buttons-html5" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span>copy</span></button> <button class="btn btn-primary btn-outline btn-sm buttons-csv buttons-html5" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span>csv</span></button> <button class="btn btn-primary btn-outline btn-sm buttons-pdf buttons-html5" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span>pdf</span></button> <button class="btn btn-primary btn-outline btn-sm" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span>json</span></button> <button class="btn btn-primary btn-outline btn-sm buttons-print" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" type="button"><span>print</span></button> </div></div><div class="col-lg-3 col-xs-12 text-center text-xl-right"><div class="datatable_search_filter"><div id="datatable_7413db0ec9d42a8df90a3fd4ba825218_filter" class="dataTables_filter"><label><span class="input-group-addon search_label"><i class="fal fa-search m-r-0"></i></span><input type="search" class="form-control input-sm" placeholder="" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218"></label></div></div></div></div><div id="datatable_7413db0ec9d42a8df90a3fd4ba825218_processing" class="dataTables_processing panel panel-default" style="display: none;"><div class="loader loader_circle"><div class="circle"></div></div></div><table id="datatable_7413db0ec9d42a8df90a3fd4ba825218" class="table display responsive table-striped table-bordered table-hover  dataTable no-footer dtr-inline" width="100%" role="grid" style="width: 100%;">
+                                <thead>
+                                <tr role="row">
+                                    
+                                </tr>
+                                <tr role="row"><th data-is_visible="0" class="sorting_asc" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 139.609px;" aria-label="
+											id                                        : activate for descending sort" aria-sort="ascending">
+											<i class="fal fa-hashtag"></i>id                                        </th><th data-is_visible="1" class="sorting" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 306.609px;" aria-label="
+											name                                        : activate for ascending sort">
+											<i class="fal fa-tag"></i>name                                        </th><th data-is_visible="1" class="sorting" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 64.6094px;" aria-label="
+											balance                                        : activate for ascending sort">
+											<i class="fab fa-btc"></i>balance                                        </th><th data-is_visible="1" class="sorting" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 57.6094px;" aria-label="
+											status                                        : activate for ascending sort">
+											<i class="fal fa-power-off"></i>status                                        </th><th data-is_visible="1" class="sorting" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 109.609px;" aria-label="
+											deposit default                                        : activate for ascending sort">
+											<i class="fal fa-clipboard-check"></i>deposit default                                        </th><th data-is_visible="1" class="sorting" tabindex="0" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" rowspan="1" colspan="1" style="width: 164.609px;" aria-label="
+											address                                        : activate for ascending sort">
+											<i class="fal fa-key"></i>address                                        </th><th data-is_visible="1" class="action_column sorting_disabled" rowspan="1" colspan="1" style="width: 84px;" aria-label="
+											action                                        ">
+											<i class="fal fa-pencil-alt"></i>action                                        </th></tr>
+                                </thead>
+                            <tbody><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWf-y1Iazbm-ZiWUpwBZscBlfYgaJf44JcWFiG-4ECbXZ6olg6AwweOyLAtYAW-ZrLQ," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-18d08b1766fbe710dbeb5b3b2980c4be</td><td class="">00000000000000000000000000000000000000001fa4663bbbe19f82de910280</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3LbfnvbjXnxaktprXcz6tHWSz7PqQRuX1U<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3LbfnvbjXnxaktprXcz6tHWSz7PqQRuX1U"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3LbfnvbjXnxaktprXcz6tHWSz7PqQRuX1U" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="HbAEXbmng2eOXmtqNJusGLlD3G0qsVY5agy6modVg_Gy1nZDcBnZeYX6B4Yq-UzHbrh8_k92BOSMC_8upK0_zKLREYYCtTCCumW_V82-MdI," role="row" class="even"><td class="sorting_1" tabindex="0">uac-1dd16523d683cda3725e72e0c6cb35e6</td><td># bitcoinwallet 00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</td><td>0.00000000</td><td>active</td><td></td><td>3KtnWuWMsFnck6BYip5qz48wCwDPNnYrMm<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3KtnWuWMsFnck6BYip5qz48wCwDPNnYrMm"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3KtnWuWMsFnck6BYip5qz48wCwDPNnYrMm" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdsfp94Z2PF1aPYqJtnU0SFe3Orv8ruYRvt9H4EfIyfFSV6K9qMYkkcW5lwiwEqKw0," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-24a89a6d82fe421bb97206e79c93bac3</td><td class="">bitcoinwallet</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>35GGEBpZtbB25okNLwxm39eH2YJHAYJUJZ<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/35GGEBpZtbB25okNLwxm39eH2YJHAYJUJZ"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/35GGEBpZtbB25okNLwxm39eH2YJHAYJUJZ" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdwhSkSxosiIsCOPA6kOZs6qdcoaiJL-v2EHs9qZysaoQkJuCQJzxUMeCHktvCiBmk," role="row" class="even"><td tabindex="0" class="sorting_1">uac-507624281373b0cfb451a67e6c7769d6</td><td class="">jasongarciawallet</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3Ea6g33MZjh8gH8j1aPJtpvnFEC9Lf4V7m<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3Ea6g33MZjh8gH8j1aPJtpvnFEC9Lf4V7m"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3Ea6g33MZjh8gH8j1aPJtpvnFEC9Lf4V7m" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdkn9CyJssByhmdmbcWNWzVnchxOZmvsyVt3IzaquXcgIS5bsFiZBLiG0u_MTgmI_U," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-7124853b43252f9a259c085b2d5407c0</td><td class="">bitcoincash</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3Aisvzv2SZb38VxxAWZeM2196qokVEfBKF<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3Aisvzv2SZb38VxxAWZeM2196qokVEfBKF"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3Aisvzv2SZb38VxxAWZeM2196qokVEfBKF" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWfG0DCvLaJvj6Uq0iFasLU5gc-6_B7-cVkKyR2kqnwQeEeF4EB-hc7387l_iriHfjw," role="row" class="even"><td tabindex="0" class="sorting_1">uac-7a36e71aa049ef85b61a0cc865951076</td><td class="">bitcoinwallet</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>38VxVQbmNtjfeD9R2vEKGJMFUaXnSaLc7k<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/38VxVQbmNtjfeD9R2vEKGJMFUaXnSaLc7k"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/38VxVQbmNtjfeD9R2vEKGJMFUaXnSaLc7k" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdFUuXSmE6iTaishgy2hL6EiSudT9TQfMvWAIUtPEo1x1TWkLrYnAiAChS_KnUKH4k," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-86a556f7c38d0b96fbc21b6c352f8d49</td><td class="">master</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3G4cjqYpgXygcW68VVGF2SrCs4P1HZ7Wy6<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3G4cjqYpgXygcW68VVGF2SrCs4P1HZ7Wy6"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3G4cjqYpgXygcW68VVGF2SrCs4P1HZ7Wy6" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWcdRq5EY3O2nYDq1bkkO5io2NPAeiBBrB9xHsRYIj1JVFVi-ATOcqF735hXXawOYjE," role="row" class="even"><td tabindex="0" class="sorting_1">uac-91c1c56301d11a309d57c82821bf5eb7</td><td class="">3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3HQ3jMFnkZBxecToZubwt247YDyzzh3xHa<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3HQ3jMFnkZBxecToZubwt247YDyzzh3xHa"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3HQ3jMFnkZBxecToZubwt247YDyzzh3xHa" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWc_188BEZLapv1omdfSd1oL3LM_JzcywWPB-dV0h3mBikL4W3dpq6N-_U_edehTB7o," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-946ec1c1d22f15c1ef0792043510cc70</td><td class="">Team Builders</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3E2PdRVRRx9JYtuTGF2K4vDmdTjgf4MejZ<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3E2PdRVRRx9JYtuTGF2K4vDmdTjgf4MejZ"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3E2PdRVRRx9JYtuTGF2K4vDmdTjgf4MejZ" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdT_sOtGady5Iy5olgdnHO-cKbH_1JVJOfcbGbab7LyVtR-eEmgiUQj5FDCjauiJB8," role="row" class="even"><td tabindex="0" class="sorting_1">uac-ad57729c6cc7f6b2a2f3591a87e8126d</td><td class="">00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>37embX7W4RshyVi2eZpGHXKP7dF5bRLufj<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/37embX7W4RshyVi2eZpGHXKP7dF5bRLufj"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/37embX7W4RshyVi2eZpGHXKP7dF5bRLufj" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWcvCDCsUzMqnqk0kfu2bnLSivBr1TDOLwKRer5yp9LWAoXuUAlOse1eVJ2Q04AO_Fc," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-ae21f4ae56f54ae405d9b00f2c0e12e1</td><td class="">primary</td><td class="">0.00000000</td><td class="">active</td><td class="">yes</td><td>3K3pg3sziCF42edBidiJE9ALZqJtcbpz6P<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3K3pg3sziCF42edBidiJE9ALZqJtcbpz6P"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3K3pg3sziCF42edBidiJE9ALZqJtcbpz6P" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWctiNQDwekA7S1DVM12NVkUIVDlJJtmJzyMDaExp3IARrF2g5YVAljEL9g_3vbjiZU," role="row" class="even"><td tabindex="0" class="sorting_1">uac-ca04ad787e9f2f0890829f300ac5a5b2</td><td class="">3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3MuieKuAzh65F3aJMzFYVdUHMFrTrARvBR<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3MuieKuAzh65F3aJMzFYVdUHMFrTrARvBR"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3MuieKuAzh65F3aJMzFYVdUHMFrTrARvBR" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWfDUVt1BXxoBxc345cDEoTSmqDDF7FE0zyTpKkJN4WDe3JeoqxccRcIQ607mseoaok," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-d20e3abc71810aee4c6055f8f4a5cbb5</td><td class=""># bitcoinwallet  00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3LqVjbiWi1P1Te9VnsCmACMAMCY9C4uurn<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3LqVjbiWi1P1Te9VnsCmACMAMCY9C4uurn"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3LqVjbiWi1P1Te9VnsCmACMAMCY9C4uurn" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWcKEGECoCm4UxwzyxO6krAoZuWAERJ5KwM4_KEQis_u4NhLB3A-BMXyOXuOXD6pyIM," role="row" class="even"><td tabindex="0" class="sorting_1">uac-e2e7ddcf8db5618dc8d6e420b0f44775</td><td class="">masterbitcoin</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3GVbiTv2uiUXzvDAHWF7Bo229XUoH9QEkY<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3GVbiTv2uiUXzvDAHWF7Bo229XUoH9QEkY"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3GVbiTv2uiUXzvDAHWF7Bo229XUoH9QEkY" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWd6xzUjGrTOd5mFxZMiF8XtaGvZ4q4xqE6AxOwYUTYWjXFKjauIuK_ZSf7V8EoFB-0," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-e53947f585ffe09582d153930720d2b5</td><td class="">master</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3KzvwE3jqhvw5bTHFTQnS3CLnSwKNYVzJY<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3KzvwE3jqhvw5bTHFTQnS3CLnSwKNYVzJY"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3KzvwE3jqhvw5bTHFTQnS3CLnSwKNYVzJY" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWdxylQSNj4t9GoxeNpAqywr3ngoZc5eeJ5Xu530dtzniqu6O1k1-4S0DOOYbMkc9NA," role="row" class="even"><td tabindex="0" class="sorting_1">uac-ecb8b7c6ab3c0efa96ef282aee262f3e</td><td class="">masterbitcoin</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>3GbReXXPBht4785nbBKCJjZ2fxHcKYBEWq<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/3GbReXXPBht4785nbBKCJjZ2fxHcKYBEWq"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/3GbReXXPBht4785nbBKCJjZ2fxHcKYBEWq" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr><tr id="z0Cr7v0BkTkcP_id0YqZIVTBRmfxBzv3KwfA0h-vfWeDtb5L2vSeU4KBw9zFgP6dOuOKLPq4AfRRf04jVE2LMJ5X7UySepYwHqrhlxr7cFk," role="row" class="odd"><td tabindex="0" class="sorting_1">uac-f2090b95e30ac77f6064bc423079cfad</td><td class="">bitcoinwallet</td><td class="">0.00000000</td><td class="">active</td><td class=""></td><td>38sfhrhdo4Hi18UNYbu3W6eyfZiznfa8V4<div class="hidden action_column_btn_data" data-icon_classname="fal fa-key" data-url="/address/38sfhrhdo4Hi18UNYbu3W6eyfZiznfa8V4"></div></td><td class=" action_column"><div><a target="_blank" href="https://bitcoinwallet.com/address/38sfhrhdo4Hi18UNYbu3W6eyfZiznfa8V4" class="btn btn-default btn-xs icon_only"><i class="fal fa-key"></i></a><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div></td></tr></tbody></table><div class="row"><div class="col-sm-6 col-xs-12"><div class="dataTables_length" id="datatable_7413db0ec9d42a8df90a3fd4ba825218_length"><label>show <select name="datatable_7413db0ec9d42a8df90a3fd4ba825218_length" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" class="form-control input-sm"><option value="25">25</option><option value="50">50</option><option value="100">100</option><option value="-1">all</option></select> records</label></div></div><div class="col-sm-6 col-xs-12"><div class="dataTables_paginate paging_simple_numbers" id="datatable_7413db0ec9d42a8df90a3fd4ba825218_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="datatable_7413db0ec9d42a8df90a3fd4ba825218_previous"><a href="https://bitcoinwallet.com/user_account.php#" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" data-dt-idx="0" tabindex="0">previous</a></li><li class="paginate_button active"><a href="https://bitcoinwallet.com/user_account.php#" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button next disabled" id="datatable_7413db0ec9d42a8df90a3fd4ba825218_next"><a href="https://bitcoinwallet.com/user_account.php#" aria-controls="datatable_7413db0ec9d42a8df90a3fd4ba825218" data-dt-idx="2" tabindex="0">next</a></li></ul></div></div></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./(3,646 unread) - duckman2277@yahoo.com - Yahoo Mail_files/datatables.min.js.download"></script>
+	
+    <script>
+        $(function () {
+            let checkbox_state = JSON.parse(localStorage.getItem('7413db0ec9d42a8df90a3fd4ba825218_checkbox_state')) || [];
+
+            if ($.datepicker) {
+                $('.datatable_filter_7413db0ec9d42a8df90a3fd4ba825218 .datepicker').datepicker({dateFormat: 'yy-mm-dd'});
+            } else if ($.datetimepicker) {
+                const local_time = new Date();
+                const utc_now = local_time.getTime() + (local_time.getTimezoneOffset() * 60000);
+                $('.datatable_filter_7413db0ec9d42a8df90a3fd4ba825218 .datetimepicker').datetimepicker({
+                    format: 'Y-m-d H:i',
+                    step: 15,
+                    defaultDate: utc_now,
+                    defaultTime: utc_now,
+                });
+            }
+
+            let result_column = [{"id":"idem_account_guid","label":"id","data_index":"idem_account_guid","icon_classname":"fa-hashtag","visible":0,"responsive_priority":1},{"id":"name","label":"name","data_index":"account_name","icon_classname":"fa-tag","visible":1,"responsive_priority":1},{"id":"balance","label":"balance","data_index":"balance","icon_classname":"fa-btc","icon_style_classname":"fab","visible":1,"responsive_priority":2},{"id":"status","label":"status","data_index":"status","icon_classname":"fa-power-off","visible":1,"responsive_priority":3},{"id":"deposit_default","label":"deposit default","data_index":"deposit_default","icon_classname":"fa-clipboard-check","visible":1,"responsive_priority":4},{"id":"address_hash_default","label":"address","data_index":"address_hash_default","icon_classname":"fa-key","visible":1,"responsive_priority":5},{"id":"action","label":"action","data_index":null,"icon_classname":"fa-pencil-alt","visible":1,"orderable":0,"responsive_priority":-1}];
+            $.each(result_column, function (index, column) {
+                let data_index = index;
+                if (typeof (column['data_index']) != 'undefined') {
+                    data_index = column['data_index'];
+                }
+                const checkbox = $('.datatable_column_visible_7413db0ec9d42a8df90a3fd4ba825218 #7413db0ec9d42a8df90a3fd4ba825218_column_' + column['id'] + '_visible');
+                checkbox.data('data_index', data_index);
+                checkbox.data('column_id', column['id']);
+                checkbox.data('column_index', index);
+
+                let default_content = '';
+                if (typeof (column['default_content']) != 'undefined') {
+                    default_content = column['default_content'];
+                }
+                checkbox.data('default_content', default_content);
+
+                let orderable = '1';
+                if (typeof (column['orderable']) != 'undefined') {
+                    orderable = column['orderable'];
+                }
+                checkbox.data('orderable', orderable);
+
+                let responsive_priority = '99';
+                if (typeof (column['responsive_priority']) != 'undefined') {
+                    responsive_priority = column['responsive_priority'];
+                }
+                checkbox.data('responsive_priority', responsive_priority);
+            });
+
+            $.each(checkbox_state, function (index, checkbox) {
+                $("#" + checkbox.id).prop('checked', checkbox.state);
+            });
+
+            let result_datatable_column = [];
+            $.each($('.datatable_column_visible_7413db0ec9d42a8df90a3fd4ba825218 input[type="checkbox"]'), function (index, value) {
+                let is_visible = false;
+                if ($(this).prop('checked')) {
+                    is_visible = true;
+                }
+
+                let default_content = '';
+                if ($(this).data('default_content')) {
+                    default_content = $(this).data('default_content');
+                }
+
+                const orderable = $(this).data('orderable') != '0';
+
+                let responsive_priority = '';
+                if ($(this).data('responsive_priority')) {
+                    responsive_priority = $(this).data('responsive_priority');
+                }
+                let data_index = $(this).data('data_index');
+                const column_id = $(this).data('column_id');
+
+                const column = {
+                    data: data_index,
+                    visible: is_visible,
+                    searchable: true,
+                    defaultContent: default_content,
+                    orderable: orderable,
+                    responsivePriority: responsive_priority
+                };
+
+                if (column_id === 'action' && data_index == null) {
+                    if (!default_content) {
+                        column['defaultContent'] = '<div><button class="btn btn-default btn-xs icon_only edit_record_button"><i class="fal fa-pencil-alt"></i></button></div>';
+                    }
+                    column['className'] = 'action_column';
+                    column['width'] = '1%';
+                }
+
+                result_datatable_column.push(column);
+            });
+
+            let export_button = [];
+			            export_button = [
+                {extend: 'copy', text: 'copy'}, //copy
+                {extend: 'csv', text: 'csv', title: 'bitcoinwallet_wallet_list_(include_inactive-1)'},
+                {extend: 'pdf', text: 'pdf', title: 'bitcoinwallet_wallet_list_(include_inactive-1)'},
+                {
+                    text: 'json', action: function (e, dt, button, config) {
+                        const data = dt.buttons.exportData();
+
+                        $.fn.dataTable.fileSave(
+                            new Blob([JSON.stringify(data)]),
+                            'bitcoinwallet_wallet_list_(include_inactive-1).json'
+                        );
+                    }
+                },
+                {extend: 'print', text: 'print'} //print
+            ];
+			
+            let ajax_param = {};
+			            ajax_param = {
+                url: '/ajax.php?payload=EqKDnv7M4WWNDMKSRUAJb6bmXM5f5x2LSzaK-j8iEELgmbXMC_-WL8tnHJRC2QYj',
+                type: 'POST',
+                data: {"api_guid":"EqKDnv7M4WWNDMKSRUAJb4eFkP-w580HgFskzNj2ZCU,","api_parameter":"EqKDnv7M4WWNDMKSRUAJb95lPnqOraP1JcPX1S2ArPOh_hr7xJohl-mHXkuRJmkeuaUa3U2eJilMkpRSOjtMi5n5LfrD5WyeL_84vkQq6ohFMu5rN37szaj0Gpb6tJSA"}            };
+			
+            let datatable = $('#datatable_7413db0ec9d42a8df90a3fd4ba825218').DataTable({
+                dom: "<'row'<'col-lg-3 col-xs-12 text-center text-xl-left refresh_btn_container'><'col-lg-6 col-xs-12 text-center'B><'col-lg-3 col-xs-12 text-center text-xl-right'<'datatable_search_filter'f>>>" +
+                    "rt" +
+                    "<'row'<'col-sm-6 col-xs-12'l><'col-sm-6 col-xs-12'p>>",
+                responsive: {
+                    details: {
+                        type: 'inline'
+                    }
+                },
+                columns: result_datatable_column,
+                order: [[2,"desc"]],
+                aLengthMenu: [
+                    [25, 50, 100, -1],
+                    [25, 50, 100, "all"]
+                ],
+                processing: true,
+                language: {
+                    "decimal": "",
+                    "emptyTable": 'no data available',
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "sLengthMenu": 'show _MENU_ records',
+                    "loadingRecords": '&nbsp;',
+                    "processing": '<div class="loader loader_circle"><div class="circle"></div></div>',
+                    "search": '<span class="input-group-addon search_label"><i class="fal fa-search m-r-0"></i></span>',
+                    "zeroRecords": 'no records found',
+                    "paginate": {
+                        "first": 'first',
+                        "last": "last",
+                        "next": "next",
+                        "previous": "previous"
+                    },
+                    "aria": {
+                        "sortAscending": ": activate for ascending sort",
+                        "sortDescending": ": activate for descending sort"
+                    }
+                },
+                deferRender: true,
+                buttons: {
+                    dom: {
+                        button: {
+                            tag: 'button',
+                            className: 'btn btn-primary btn-outline btn-sm'
+                        }
+                    },
+                    buttons: export_button
+                },
+                ajax: ajax_param,
+                rowId: 'datatable_row_id',
+                createdRow: function (row, data) {
+                    const row_content_html = Object.values(data).join(' ');
+                    $('<div></div>').html(row_content_html).find('.action_column_btn_data').each(function () {
+                        let action_btn = '';
+                        const action_type = $(this).data('action_type');
+                        if (!action_type || action_type === 'link') {
+                            action_btn = '<a target="_blank" href="' + $(this).data('url') + '" class="btn btn-default btn-xs icon_only"><i class="' + $(this).data('icon_classname') + '"></i></a>';
+                        }
+
+                        if (action_btn) {
+                            $(row).find('.action_column > div').prepend(action_btn);
+                        }
+                    });
+
+                    $(row).data('modal_name', 'user_account_edit');
+                },
+                drawCallback: function () {
+                    $('[data-toggle="tooltip"]').tooltip();
+                }
+            });
+
+            new $.fn.dataTable.Buttons(datatable, {
+                dom: {
+                    button: {
+                        tag: 'button',
+                        className: 'btn btn-primary btn-outline btn-sm'
+                    }
+                },
+                buttons: [
+                    {
+                        text: '<i class="fal fa-sync"></i>refresh', //refresh
+                        action: function (e, dt, node, conf) {
+                            dt.ajax.reload();
+                        }
+                    }
+                ]
+            });
+            datatable.buttons(1, null).container().appendTo($(datatable.table().container()).find('.refresh_btn_container'));
+
+            $('.datatable_column_visible_7413db0ec9d42a8df90a3fd4ba825218 input[type="checkbox"]').off('change').on('change', function (e) {
+                let state = false;
+                const column_index = $(this).data('column_index');
+                if ($(this).is(":checked")) {
+                    state = true;
+                }
+
+                datatable.column(column_index).visible(state);
+
+                let checkbox_state = [];
+                $('.datatable_column_visible_7413db0ec9d42a8df90a3fd4ba825218 input[type="checkbox"]').each(function () {
+                    checkbox_state.push({
+                        'state': this.checked ? 1 : 0,
+                        'id': this.id
+                    });
+                });
+                localStorage.setItem('7413db0ec9d42a8df90a3fd4ba825218_checkbox_state', JSON.stringify(checkbox_state));
+                $('[data-toggle="tooltip"]').tooltip();
+                datatable.columns.adjust().draw();
+            });
+
+			            $('body').on('click', '#datatable_7413db0ec9d42a8df90a3fd4ba825218 > tbody .edit_record_button', function (e) {
+                let show_modal = 1;
+                if ($(e.target).is('a') && $(e.target).data('toggle') !== 'modal' || $(e.target).closest('a').length > 0 && $(e.target).closest('a').data('toggle') !== 'modal') {
+                    show_modal = false;
+                }
+
+                let row = $(this);
+                if ($(this)[0].tagName !== 'TR') {
+                    row = $(this).closest('tr');
+                    if (row.hasClass('child')) {
+                        row = row.prev();
+                    }
+                }
+
+                const modal_name = row.data('modal_name');
+                if (typeof (modal_name) !== 'undefined' && show_modal) {
+                    load_modal(modal_name, row.prop('id'));
+                }
+            });
+
+			
+			        });
+    </script>
+
+
+    </div>
+
+    </div>
+    <footer class="bg-primary">
+        <div class="footer_content">
+            <div class="copyright">
+                <a href="https://bitcoinwallet.com/" class="logo">
+					<svg id="btcw_logo_bold" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1559.73 1581.75">
+    <defs>
+        <style>.btcw_logo_bold_fill{fill:#34495e;}</style>
+    </defs>
+    <title>BTCW-icon_ bold</title>
+    <path class="btcw_logo_bold_fill" d="M-504.24,572.3a5.43,5.43,0,0,0,1.55.58q43.68.06,87.36.06a11.44,11.44,0,0,0,2.05-.43c.14-1,.3-1.91.4-2.82a6.93,6.93,0,0,0,0-1.44c-1.09-11.58,2.44-22.46,5.08-33.47a13.8,13.8,0,0,1,3-6,3.8,3.8,0,0,0,.29-.38,53,53,0,0,1,17.09-17.15,23.9,23.9,0,0,1,7.31-3.41c6.36-1.55,12.72-3.14,19.12-4.53a12.53,12.53,0,0,1,5.21,0c6.4,1.4,12.76,3,19.1,4.61a14.35,14.35,0,0,1,4.35,1.91,162.73,162.73,0,0,1,16.83,12.71c12.41,10.88,25.39,21,39.65,29.35,8.68,5.08,17.38,10.2,26.37,14.7a311.26,311.26,0,0,0,53.92,21c9.58,2.74,19.39,4,29.21,5.36,5.22.71,10.44,1.44,15.67,2,2.7.27,5.44,0,8.16.18,2.54.13,5.07.46,7.61.67,1.27.11,2.54.23,3.82.24,5,0,9.92,0,14.88,0a12.37,12.37,0,0,0,3.34-.19c3-.86,6-.72,9-.75a66.77,66.77,0,0,0,11.45-.76c4.38-.8,8.89-.91,13.34-1.35a238,238,0,0,0,59.65-13.52A365.44,365.44,0,0,0,23,560.64c16.73-8.82,32.63-18.88,47.08-31.18,7.3-6.22,14.32-12.72,21.31-19.29,5.72-5.38,10.93-11.22,16.44-16.78,4.71-4.75,8.91-10,13.17-15.21a283.29,283.29,0,0,0,21.24-29,412.14,412.14,0,0,0,27.28-50.6A429.14,429.14,0,0,0,190,342.81a220,220,0,0,0,6-27.61c1.24-7.89,2.53-15.77,3.64-23.67.66-4.74,1.06-9.52,1.52-14.29q.9-9.3,1.7-18.6c.16-1.91.21-3.83.21-5.75,0-5.44-.09-10.87.83-16.27a26.89,26.89,0,0,0,.14-4.31c0-5.6.08-11.2,0-16.8-.07-3.51-.44-7-.59-10.52-.17-3.83-.19-7.67-.36-11.51-.12-2.7-.38-5.41-.6-8.11-.07-.8-.27-1.59-.29-2.38-.26-11.37-1.84-22.62-3.47-33.83-1.55-10.58-3.41-21.14-5.75-31.56a267.61,267.61,0,0,0-11.44-37.06c-2.63-6.86-5.07-13.81-8-20.56s-6.13-13.37-9.37-20A380.2,380.2,0,0,0,142.39,1.66,262.5,262.5,0,0,0,125.21-22c-3.94-4.83-8.1-9.47-12.12-14.23-6.29-7.45-12.87-14.66-19.79-21.51-5.56-5.5-11.54-10.57-17.42-15.73-4.56-4-9.1-8.06-13.93-11.72-5.73-4.34-11.66-8.45-17.68-12.37A301.5,301.5,0,0,0,6-118.39,297.73,297.73,0,0,0-46.27-137c-4.63-1.16-9.39-1.82-14.12-2.55-6.15-.95-12.3-1.87-18.48-2.56a197.94,197.94,0,0,0-21.49-1.69c-2.71,0-5.42-.37-8.12-.55-2.07-.14-4.15-.32-6.22-.35q-6.48-.08-13,0c-1.92,0-3.83.25-5.74.4l-6.68.52c-5.89.44-11.82.62-17.67,1.37-7.75,1-15.44,2.49-23.16,3.68-5.87.91-11.48,2.79-17.1,4.6a303.73,303.73,0,0,0-45.09,18.68A303.92,303.92,0,0,0-288.8-87.4c-5.09,3.86-9.93,8-14.84,12.13-4.29,3.59-8.69,7.07-12.71,10.94a136,136,0,0,1-12.25,10,28.36,28.36,0,0,1-12.09,5.5c-4.55.87-9,2.08-13.54,3.16a17.87,17.87,0,0,1-8.54.1c-5.58-1.37-11.2-2.61-16.78-4a26.3,26.3,0,0,1-8.17-3.87c-6.78-4.46-12.55-9.77-16.76-16.81A28,28,0,0,1-408.1-78c-1.49-6.22-3-12.43-4.42-18.66a17.64,17.64,0,0,1-.32-3.33c-.05-1.6,0-3.2,0-4.8V-640.94q0-34.32,0-68.63c0-2.38.39-4.76.57-7.14.1-1.43.19-2.87.2-4.31,0-5.76.11-11.52,0-17.28A30.34,30.34,0,0,1-410-750a17.72,17.72,0,0,1,11.86-11,44.78,44.78,0,0,1,13.26-1.79c12.47.14,24.95.06,37.43.06H614c27.2,0,54.4-.1,81.6-.1,28.16,0,56.32.11,84.47.06A38.87,38.87,0,0,1,792.34-761a17.5,17.5,0,0,1,11.85,12.18A47.22,47.22,0,0,1,806-735.1Q805.93-94.55,806,546q0,123.12.06,246.24a41.47,41.47,0,0,1-2.08,13.66,17.39,17.39,0,0,1-11.58,11.27,39.71,39.71,0,0,1-12.3,1.7q-83-.07-166.07,0-670.08,0-1340.15,0a45.33,45.33,0,0,1-13.29-1.52,17.69,17.69,0,0,1-12.61-12.58,43.19,43.19,0,0,1-1.65-12.3q.06-764.14,0-1528.3a45.48,45.48,0,0,1,1.37-11.86c1.94-7.29,6.51-11.81,13.84-13.7a46.92,46.92,0,0,1,11.85-1.41q73.44.06,146.88,0c15.84,0,31.68.07,47.52,0A41,41,0,0,1-519-760.9a17.33,17.33,0,0,1,11.79,12.23,44.05,44.05,0,0,1,1.74,13.72c-.19,5.28-.06,10.56,0,15.84,0,4.15-.28,8.32.82,12.41a11.9,11.9,0,0,1,.12,2.87c0,1.76,0,3.52,0,5.28q0,631.68,0,1263.35C-504.57,567.32-504.83,569.87-504.24,572.3ZM-681.71-691.27c-.06,2.85-.15,5.22-.15,7.59V740c0,1.6-.06,3.2,0,4.79a18.26,18.26,0,0,0,.56,2.74,27.25,27.25,0,0,0,6.86.36H727.18c1.44,0,2.88.06,4.32,0a23.18,23.18,0,0,0,2.93-.6c0-2.41.07-4.63.07-6.86V-684.25c0-1.44,0-2.88,0-4.31a26,26,0,0,0-.51-3c-2.44,0-4.65-.1-6.87-.1H-330.34c-1.44,0-2.89-.06-4.32,0a18.79,18.79,0,0,0-2.88.67v538.23c0,1.44,0,2.89,0,4.32,0,.74-.16,1.64,1.1,2.24.88-.57,1.95-1.18,2.93-1.9a375.07,375.07,0,0,1,47.21-30.22,344.09,344.09,0,0,1,34.64-16.34,305.51,305.51,0,0,1,34-11.61c13.73-3.63,27.49-7.14,41.61-9.08,7.89-1.08,15.71-2.67,23.72-2.79.79,0,1.58-.19,2.37-.28a61.58,61.58,0,0,1,6.18-.62c15.84,0,31.68,0,47.52,0a14.27,14.27,0,0,1,3.82.21c3,.83,6,.72,9,.75a27.64,27.64,0,0,1,2.88.16c4.1.55,8.2,1.14,12.3,1.7,5.68.78,11.41,1.32,17,2.37A453.78,453.78,0,0,1-6.86-203.34a339.6,339.6,0,0,1,64.3,26.06A370.94,370.94,0,0,1,92.23-156.1a405.44,405.44,0,0,1,56.08,46.42c4.44,4.37,8.59,9,12.75,13.68,6,6.66,12,13.26,17.7,20.17s11,14.14,16.3,21.35A409.77,409.77,0,0,1,225.9-5.37,405.78,405.78,0,0,1,245,36q6.4,16,11.43,32.53,6.76,22.27,11.46,45.07c1.66,8,3,16,4.33,24q1.5,8.73,2.71,17.5C275.5,159,276,163,276.16,167c.24,5.9,1.56,11.73,1.1,17.67a8,8,0,0,0,.2,1.42c.23,2.38.58,4.75.65,7.13.11,4-.05,8,.06,12,.16,5.74-.57,11.52.67,17.22a8.71,8.71,0,0,1-.1,2.38c-.19,2.39-.53,4.76-.56,7.15-.08,7,0,14.08-.06,21.11-.06,6.23-1.33,12.39-1.09,18.64a14.25,14.25,0,0,1-.44,2.35c-.15,1.1-.27,2.21-.36,3.32-.39,4.77-.59,9.56-1.18,14.3-.75,6-1.92,12-2.7,18-1.21,9.35-3.06,18.57-5,27.79q-4.8,23.26-11.79,46a423.31,423.31,0,0,1-22.18,57.14Q226,456.11,217.29,471a440.6,440.6,0,0,1-29.52,44.27c-6.28,8.27-12.7,16.45-19.77,24.08-6.19,6.68-12.21,13.52-18.49,20.11-3.3,3.47-7.06,6.49-10.49,9.84a229.74,229.74,0,0,1-19,16.84C112.45,592,104.89,598,97.11,603.56a332,332,0,0,1-32,20.25,322.7,322.7,0,0,1-34,16.7,353.55,353.55,0,0,1-37,13.21A413.66,413.66,0,0,1-77.54,668.2c-5.56.58-11.14,1-16.71,1.51-2.7.23-5.41.53-8.12.55-13.12,0-26.24-.09-39.36.07-6.58.09-13.08-.79-19.59-1.35-6.83-.59-13.6-1.87-20.41-2.82-15.38-2.12-30.38-6-45.32-10.11a230.57,230.57,0,0,1-26.31-8.9c-7.67-3.15-15.36-6.3-22.93-9.71-5.52-2.49-10.92-5.29-16.26-8.18-6.6-3.57-13.2-7.18-19.58-11.14-7.6-4.71-14.95-9.83-22.43-14.74a19.67,19.67,0,0,0-2.88-1.21c0,4-.2,7.48-.07,11,.18,4.74-1.3,9.15-2.45,13.63a9.59,9.59,0,0,1-1.59,2.92c-3.42,4.89-7.78,8.89-12.28,12.73a17.45,17.45,0,0,1-7.71,3.62,47.87,47.87,0,0,1-10.92,1.23q-85.92,0-171.84,0a50.67,50.67,0,0,1-12.81-1.51,16.27,16.27,0,0,1-5.63-2.53c-4.72-3.39-8.51-7.72-12.35-12a17.75,17.75,0,0,1-3.67-7.68,49.6,49.6,0,0,1-1.31-12.84q0-646.55,0-1293.1c0-2.08,0-4.16,0-6.23a15.07,15.07,0,0,0-.57-2.61c-5-.66-70.15-.92-97.15-.4C-678.92-691.59-680-691.43-681.71-691.27Z" transform="translate(753.72 762.87)"></path>
+    <path class="btcw_logo_bold_fill" d="M-422.91,225.6c0-4.16-.1-8.33,0-12.48.1-3.51.45-7,.69-10.51.07-1,.2-1.91.21-2.87a208.44,208.44,0,0,1,4.72-38.49q3.81-18.54,8.39-36.92a247.08,247.08,0,0,1,11.36-34.07c9.48-23.14,22.95-43.84,38.18-63.51a151.28,151.28,0,0,1,12.76-14.94c2.37-2.36,4.3-5.18,6.74-7.46,4.9-4.59,10-8.93,15-13.39,8.87-7.9,18.73-14.46,28.52-21.1a188.07,188.07,0,0,1,51.35-24.35A418.31,418.31,0,0,1-200.7-65.16c5.63-1.06,11.3-1.93,17-2.84a26.59,26.59,0,0,1,3.35-.13,16.13,16.13,0,0,0,3.82-.13c4.26-1.18,8.58-.79,12.88-.82q9.6-.08,19.2,0a71.07,71.07,0,0,1,11.45.7c3.58.6,7.3.52,10.92,1.18,3,.54,6,.77,9,1.43,10.61,2.36,21.23,4.64,31.75,7.33a196,196,0,0,1,36,13.07C-29.32-37.65-14.94-27.3-.73-16.65A139.45,139.45,0,0,1,16.9-1.16q3.15,3.3,6.46,6.44A185,185,0,0,1,45.19,30.73c6.14,8.37,12,17,17.69,25.66a205.53,205.53,0,0,1,16,30.53c3,6.87,5.61,13.92,8.13,21a281.88,281.88,0,0,1,9,32.33c2,8.88,4,17.76,5.76,26.7,1.09,5.62,1.68,11.34,2.46,17,.58,4.27,1.11,8.53,1.66,12.8a14.9,14.9,0,0,1,.3,2.38c-.37,8.64,1.48,17.18,1.1,25.83-.24,5.43,0,10.88,0,16.32,0,3.2.15,6.4-.76,9.53a6.61,6.61,0,0,0-.17,2.39c.46,5.63-.62,11.16-1.23,16.7a276.75,276.75,0,0,1-6.88,37.64c-2.21,8.67-4.15,17.41-6.54,26A242.05,242.05,0,0,1,73.78,379C66,394.29,56.23,408.34,46,422.07c-4.78,6.42-9.95,12.5-15.22,18.51a196.21,196.21,0,0,1-14.65,15.17A293,293,0,0,1-9.58,476.53a229.77,229.77,0,0,1-30.84,19.35A191.27,191.27,0,0,1-81.6,511.35c-12.56,3.09-25.11,6.24-37.86,8.41-4.24.72-8.58.82-12.84,1.42-12.9,1.8-25.87.6-38.8.89a63.68,63.68,0,0,1-7.14-.61c-.8-.08-1.59-.27-2.38-.28-9.63-.14-19-2-28.38-4.08q-15.69-3.4-31.21-7.49a187.49,187.49,0,0,1-55.32-24.74c-10.42-6.87-20.44-14.29-30.19-22.09-.62-.5-1.23-1-1.82-1.55-3.32-3-6.68-6-9.91-9.05-2-1.87-3.72-3.95-5.56-5.95-.86-.94-1.64-2-2.56-2.85-5.69-5.43-10.51-11.63-15.23-17.87-8.49-11.22-16.82-22.59-23.58-35-3.89-7.14-7.53-14.45-10.89-21.87-8.22-18.14-13.12-37.33-17.69-56.64a400.5,400.5,0,0,1-7.82-42.89c-.71-5.69-.81-11.46-1.18-17.2,0-.48,0-1-.05-1.44a68.75,68.75,0,0,1-.92-12.41C-422.84,233.92-422.91,229.76-422.91,225.6Zm455,4.76h0c0-4.32-.13-8.65,0-13,.17-4.52-.79-8.91-1.17-13.36-.05-.48-.1-1-.13-1.43-.38-4.62-.58-9.25-1.16-13.83-.77-6-1.76-12-2.81-18a219.63,219.63,0,0,0-13.06-44.51A211.79,211.79,0,0,0-6,88.61,191.59,191.59,0,0,0-29.71,59.15c-2.37-2.38-4.8-4.7-7.13-7.13A134.86,134.86,0,0,0-54.38,37.18,166.3,166.3,0,0,0-98.44,14.24a131.55,131.55,0,0,0-26-6.19,199.43,199.43,0,0,0-22.37-1.87q-7.91-.18-15.77.1c-4.94.19-9.85.14-14.81.76-5.68.71-11.39,1.3-17,2.28a145.63,145.63,0,0,0-18.62,4.43,195.34,195.34,0,0,0-32.61,13.78,152,152,0,0,0-31.74,22.19A201.46,201.46,0,0,0-298.14,71a207.53,207.53,0,0,0-16.55,22.91,229.44,229.44,0,0,0-14.67,28.54A214.82,214.82,0,0,0-339.19,151a280.3,280.3,0,0,0-6.58,34.34c-.69,4.88-.75,9.85-1.1,14.78a6.14,6.14,0,0,1-.15,1.43c-1,3.28-.76,6.65-.76,10q0,15.6,0,31.2c0,1.43,0,2.88.13,4.31.55,5.39,1.34,10.75,1.69,16.15.33,5.11,1.17,10.13,1.93,15.18a222.61,222.61,0,0,0,13.21,48.95,211.93,211.93,0,0,0,21.46,41.13,195.27,195.27,0,0,0,23.42,27.86,165.3,165.3,0,0,0,24.84,21,176.62,176.62,0,0,0,41.54,20.53A174.75,174.75,0,0,0-166.42,447c1.44,0,2.88,0,4.31.05a189.24,189.24,0,0,0,31.58-1.17,153.72,153.72,0,0,0,34.45-8.09c16-5.88,31-13.56,44.57-23.93,4.43-3.4,8.61-7.13,12.83-10.79a112.85,112.85,0,0,0,8.82-8.1c4-4.31,7.74-8.93,11.66-13.35C-9.65,372-2.72,361.26,3.52,350.1a218.27,218.27,0,0,0,20.25-49.56,201.64,201.64,0,0,0,6.13-33.88c.42-4.44.7-8.92,1.42-13.32a77.62,77.62,0,0,0,.81-12.91Q32.11,235.41,32.12,230.36Z" transform="translate(753.72 762.87)"></path>
+</svg>                </a>
+            </div>
+
+            <div class="disclaimer">
+                <div class="disclaimer_text">
+					all blockchain and pricing data on bitcoinwallet.com is provided “as-is” and is to be used for entertainment purposes only, and should not be used or relied on in any way to influence or direct trading or investment decisions or funds availaibility or funds value. neither bitcoinwallet.com, nor its employees, contractors, owners, operators or data sources verify or are responsible for the accuracy, availability or timeliness of prices, volumes, blocks, addresses, transactions or any other content that appears on the site and your use of or reliance on any such content is at your own risk. this site contains affiliate links, and we may be compensated if you make a purchase after clicking on the links.                </div>
+
+                <div class="terms_and_policy">
+                    <div>
+                        <a href="https://bitcoinwallet.com/terms.php" target="_blank">terms of use</a>
+                    </div>
+                </div>
+                <div class="terms_and_policy">
+                    <div>
+                        <a href="https://bitcoinwallet.com/privacy.php" target="_blank">privacy policy</a>
+                    </div>
+                </div>
+
+                <div class="copyright_label">
+                    <span>copyright </span><i class="fal fa-copyright"></i><span> 2022</span>
+                    <span> bitcoinwallet.com</span>
+                </div>
+            </div>
+
+            <div class="social font_size_h4">
+                <a href="https://twitter.com/bitcoinwaIIet" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    
+
+    <script>
+        function set_result(result) {
+            const send_summary_send_form_id = $('#modal_qr_code_scan #send_summary_send_form_id').val();
+            $('#' + send_summary_send_form_id + ' .send_summary_recipient').val(result).trigger('change');
+            $('#modal_qr_code_scan').modal('hide');
+            $('.modal-backdrop').remove();
+        }
+
+        $(function () {
+            $('#modal_qr_code_scan').on('show.bs.modal', function () {
+                const video = document.getElementById('qr_code_scan_reader');
+                window.modal_qr_code_scanner = new window.QrScanner(video, result => set_result(result));
+                window.modal_qr_code_scanner.start();
+            });
+
+            $('#modal_qr_code_scan').on('hidden.bs.modal', function () {
+                window.modal_qr_code_scanner.stop();
+            });
+        });
+    </script>
+
+
+    
+    
+
+
+
+<div class="modal fade hmodal-primary" id="modal_user_account_edit" tabindex="-1" role="dialog" aria-modal="true" style="display: none;">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+					
+    <div class="modal_header_control_container pull-right">
+        <div class="d-inline-block modal_header_control">
+            <a href="https://bitcoinwallet.com/user_account.php#" class="close_modal"><i class="fal fa-times-circle"></i></a>
+        </div>
+    </div>
+
+                    <div class="color-line"></div>
+                    <div class="modal-header">
+												                            <span class="modal_subtitle labeled">wallet</span>
+							                    </div>
+
+                    <div class="record_detail hpanel collapsed hidden">
+                        <div class="hbuilt showhide cursor-pointer">
+                            <div class="panel-tools">
+                                <i class="fal fa-chevron-down"></i>
+                            </div>
+                            <span class="labeled"><i class="fal fa-info"></i>detail</span>
+                        </div>
+                        <div class="record_detail_body panel-body"></div>
+                    </div>
+
+                    <div class="modal-body" id="modal_user_account_edit_ajax">
+
+
+
+
+
+    <script>
+        $(function () {
+            if (typeof (refresh_navigate_left_user_account_list) === 'function') {
+                refresh_navigate_left_user_account_list();
+            }
+        });
+    </script>
+	
+    <div class="modal_form_body_container">
+        <div class="modal_form_body">
+            <div class="modal_form_body_cell">
+                <div class="text-center">saved successfully</div>
+            </div>
+        </div>
+    </div>
+    <div class="form_action_control">
+        <button type="button" class="btn btn-primary btn-outline" data-dismiss="modal">close</button>
+    </div>
+    <script>
+		        $(function () {
+            datatable_update_row({"datatable_row_id":"HbAEXbmng2eOXmtqNJusGLlD3G0qsVY5agy6modVg_Gy1nZDcBnZeYX6B4Yq-UzHbrh8_k92BOSMC_8upK0_zKLREYYCtTCCumW_V82-MdI,","idem_account_guid":"uac-1dd16523d683cda3725e72e0c6cb35e6","account_name":"# bitcoinwallet 00000000000000000008a89e854d57e5667df88f1cdef6fde2fbca1de5b639ad","address_hash_default":"3KtnWuWMsFnck6BYip5qz48wCwDPNnYrMm<div class=\"hidden action_column_btn_data\" data-icon_classname=\"fal fa-key\" data-url=\"\/address\/3KtnWuWMsFnck6BYip5qz48wCwDPNnYrMm\"><\/div>","status":"active","balance":"0.00000000","deposit_default":"","button_new_data_id":"EqKDnv7M4WWNDMKSRUAJb0sLZWnMebSJFO2sx5r2gBM,"});
+        });
+		    </script>
+	</div>
+                </div>
+            </div>
+        </div><div class="modal fade hmodal-primary modal_send_summary" id="modal_send_summary" tabindex="-1" role="dialog" aria-modal="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+					
+    <div class="modal_header_control_container pull-right">
+        <div class="d-inline-block modal_header_control">
+            <a href="https://bitcoinwallet.com/user_account.php#" class="close_modal"><i class="fal fa-times-circle"></i></a>
+        </div>
+    </div>
+
+                    <div class="color-line"></div>
+                    <div class="modal-header">
+												                            <span class="modal_subtitle labeled"><i class="fal fa-arrow-right withdrawal"></i>send bitcoin</span>
+							                    </div>
+
+                    <div class="record_detail hpanel collapsed hidden">
+                        <div class="hbuilt showhide cursor-pointer">
+                            <div class="panel-tools">
+                                <i class="fal fa-chevron-down"></i>
+                            </div>
+                            <span class="labeled"><i class="fal fa-info"></i>detail</span>
+                        </div>
+                        <div class="record_detail_body panel-body">
+                        </div>
+                    </div>
+
+                    <div class="modal-body" id="modal_send_summary_ajax"></div>
+                </div>
+            </div>
+        </div><div class="modal hmodal-primary" id="modal_qr_code_scan" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+				
+    <div class="modal_header_control_container pull-right">
+        <div class="d-inline-block modal_header_control">
+            <a href="https://bitcoinwallet.com/user_account.php#" class="close_modal"><i class="fal fa-times-circle"></i></a>
+        </div>
+    </div>
+
+                <div class="color-line"></div>
+                <div class="modal-header">
+                    <h4 class="modal_subtitle labeled">qr code</h4>
+                </div>
+                <div class="modal-body" id="modal_qr_code_scan_ajax">
+                    <div class="modal_form_body_container">
+                        <div class="modal_form_body">
+                            <div class="modal_form_body_cell">
+                                <video muted="" playsinline="" id="qr_code_scan_reader" class="w-100"></video>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <input type="text" id="qr_code_scan_result">
+                        <input type="hidden" id="send_summary_send_form_id">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div></body></html>

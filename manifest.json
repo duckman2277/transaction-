@@ -1,0 +1,23 @@
+{
+	"name":	"Lenovo App Explorer",
+	"version":	"2.0.2",
+	"icons":	{
+		"19":	"images/icon_19x19.png",
+		"29":	"images/icon_29x29.png",
+		"42":	"images/icon_42x42.png",
+		"256":	"images/icon_256x256.png"
+	},
+	"icons_prerendered":	true,
+	"description":	"Lenovo App Explorer by SweetLabs, Inc",
+	"background":	"false.html",
+	"navigation":	true,
+	"navigation_favicon":	"images/favicon.png",
+	"notifications":	[{
+			"name":	"badges",
+			"default":	"show"
+		}, {
+			"name":	"alerts",
+			"default":	"show"
+		}],
+	"key":	"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIjOXbaSePThVjOpfEeyUSOH2/ARTV8KBVZ+DMVkekJMS674nqWSUFkSoTvwhTCpnlRYdWFlPr3htzlET7+j0KY/Vo8rW88PDaEF45zvyZxjmyLSJECWtxPNUeTnnmmWbL6kc1tTODsZNZZX+11nLgVKXGMVRwCpMRRDImOEj+lQIDAQAB"
+}
